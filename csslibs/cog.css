@@ -1,0 +1,206 @@
+:root{
+    --alert: #ffbb00;
+    --active: #00ff80;
+    --danger: #ff0050;
+    --primary: #0088ff;
+}
+
+.cog-panel {
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    z-index: 30;
+    right: -400px;
+    transition: 0.4s ease;
+}
+
+.cog-panel .cog-navbar {
+    width: 100%;
+    height: 80px;
+}
+
+.cog-panel .nav-content {
+    height: 100%;
+    padding: 0 20px;
+}
+
+.cog-panel .nav-content .cog-title {
+    font-size: 1.8em;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    user-select: none;
+}
+
+.cog-panel .nav-content .backBtn {
+    width: 35px;
+    height: 35px;
+    transition: 0.4s ease;
+}
+
+.cog-panel .nav-content .backBtn:active {
+    transform: scale(0.95);
+    filter: brightness(0.8);
+}
+
+.cog-panel .nav-content .backBtn img {
+    width: 17px;
+    height: 17px;
+    transform: rotate(90deg);
+    -webkit-user-drag: none;
+}
+
+.cog-panel .cog-content {
+    width: 100%;
+    height: calc(100% - 80px);
+    overflow-y: auto;
+}
+
+.cog-panel .cog-content::-webkit-scrollbar {
+    display: none;
+}
+
+.cog-panel .cog-content .items-wrapper {
+    padding: 15px 20px;
+}
+
+.cog-panel .cog-content .items-wrapper .general-wrapper .gen-head,
+.other-head {
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    margin-bottom: 10px;
+    font-size: 1.3em;
+}
+
+.cog-panel .cog-content .items-wrapper .general-wrapper .genitems-wrapper,
+.otherItems-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cog-panel .cog-content .items-wrapper .general-wrapper .genitems-wrapper .gen-item {
+    width: 100%;
+}
+
+.cog-panel .cog-content .items-wrapper .general-wrapper .genitems-wrapper .glast {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.cog-panel .cog-content .items-wrapper .general-wrapper .genitems-wrapper .gen-item .item-head {
+    height: inherit;
+}
+
+.cog-panel .cog-content .items-wrapper .item-head {
+    position: relative;
+}
+
+.cog-panel .cog-content .items-wrapper .item-head .head-title {
+    font-size: 1.4em;
+    font-weight: 400;
+}
+
+.cog-panel .cog-content .items-wrapper .item-head .head-tag {
+    font-weight: 300;
+    font-size: 1em;
+}
+
+.cog-panel .cog-content .items-wrapper .item-head .hoverArrow {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-50%)translateX(-10px);
+    opacity: 0;
+    transition: 0.4s ease;
+}
+
+.cog-panel .cog-content .items-wrapper .item-head:hover .hoverArrow {
+    transform: translateY(-50%)translateX(0px);
+    opacity: 1;
+}
+
+.cog-panel .cog-content .items-wrapper .item-head .hoverArrow img {
+    width: 18px;
+    transform: rotate(-90deg);
+}
+
+/* btns */
+.cog-panel .cog-content .items-wrapper .general-wrapper .genitems-wrapper .item-tail .toggleBtn {
+    width: 80px;
+    height: 35px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px 4px;
+}
+
+.cog-panel .cog-content .items-wrapper .general-wrapper .genitems-wrapper .item-tail .toggleBtn .toggler {
+    height: 80%;
+    width: 54%;
+    border-radius: inherit;
+}
+
+.cog-panel .cog-content .items-wrapper .general-wrapper .genitems-wrapper .item-tail .colorBtn {
+    width: 60px;
+    height: 34px;
+    border-radius: 20px;
+    position: relative;
+    transition: 0.25s ease-out;
+}
+
+.cog-panel .cog-content .items-wrapper .general-wrapper .genitems-wrapper .item-tail .colorBtn .col {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    transition: 0.25s ease-out;
+    border: 3px solid var(--mid-black);
+}
+.col:active{
+    transform: scale(0.95);
+}
+.cog-panel .cog-content .items-wrapper .general-wrapper .genitems-wrapper .item-tail .colorBtn .col:nth-child(1) {
+    left: 4px;
+}
+
+.cog-panel .cog-content .items-wrapper .general-wrapper .genitems-wrapper .item-tail .colorBtn .col:nth-child(2) {
+    right: 18px;
+}
+
+.cog-panel .cog-content .items-wrapper .general-wrapper .genitems-wrapper .item-tail .colorBtn .col:nth-child(3) {
+    right: 10px;
+}
+
+.cog-panel .cog-content .items-wrapper .general-wrapper .genitems-wrapper .item-tail .colorBtn .col:nth-child(4) {
+    right: 3px;
+}
+
+.cog-panel .cog-content .items-wrapper .general-wrapper .genitems-wrapper .item-tail .colorBtn:hover {
+    width: 103px;
+}
+
+.cog-panel .cog-content .items-wrapper .general-wrapper .genitems-wrapper .item-tail .colorBtn:hover .col:nth-child(2) {
+    right: 47px;
+}
+
+.cog-panel .cog-content .items-wrapper .general-wrapper .genitems-wrapper .item-tail .colorBtn:hover .col:nth-child(3) {
+    right: 25px;
+}
+
+.soundToggle{
+    transform: translateX(35px);
+    background-color: var(--active);
+}
+.transitionToggle{
+    transform: translateX(35px);
+    background-color: var(--active);
+}
+.ambientToggle{
+    transform: translateX(35px);
+    background-color: var(--active);
+}

@@ -1,0 +1,309 @@
+@media (max-width:400px) {
+
+  /* responsiveness for music panel */
+  .music {
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+  }
+
+  .cog-panel {
+    left: 600px;
+  }
+
+  .music-wrapper .about-panel {
+    left: -400px;
+  }
+
+  .music .music-wrapper .music-panel .navbar {
+    height: 80px;
+  }
+
+  .music .music-wrapper .music-panel .navbar .navItems .about-wall .about-img,
+  .cog-wall {
+    width: 45px;
+    height: 45px;
+  }
+
+  .music .music-wrapper .music-panel .navbar .navItems .about-wall .capsule {
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+  }
+
+  .music .music-wrapper .music-panel .navbar .navItems .about-wall .capsule .title {
+    font-size: 1.3em;
+  }
+
+  .music .music-wrapper .music-panel .content .content-wrapper {
+    padding: 25px;
+  }
+
+  .content .content-wrapper .music-wall .music-area .music-canvas {
+    width: 100%;
+    height: 240px;
+  }
+
+  .content .content-wrapper .music-wall .music-area .music-infobar {
+    margin-top: 50px;
+    align-items: flex-start;
+  }
+
+  .content .content-wrapper .music-wall .music-area .music-infobar .like-btn {
+    width: 50px;
+    height: 50px;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .content .content-wrapper .music-wall .music-area .music-infobar .info .musicTag {
+    font-size: 1.7em;
+  }
+
+  .content .content-wrapper .music-wall .music-area .music-infobar .info .artistTag {
+    font-size: 1.3em;
+  }
+
+  .content .content-wrapper .music-wall .progress .time-wall {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .content .content-wrapper .music-wall .progress .time-wall .current, .duration{
+    font-size: 1.1em;
+  }
+  .content .content-wrapper .music-wall .controls {
+    margin-top: 50px;
+  }
+
+  .content .content-wrapper .artist-wall {
+    margin-top: 80px;
+  }
+
+  .content .content-wrapper .artist-wall .artist-wrapper .artist-canvas {
+    height: 210px;
+  }
+
+  .content .content-wrapper .artist-wall .artist-wrapper .artist-canvas p {
+    font-size: 0.8em;
+  }
+
+  .content .content-wrapper .artist-wall .artist-wrapper .artist-canvas .verifiedBubble {
+    width: 40px;
+    height: 40px;
+  }
+
+  .content .content-wrapper .artist-wall .artist-wrapper .artist-canvas .verifiedBubble img {
+    width: 20px;
+  }
+
+  .content .content-wrapper .artist-wall .artist-wrapper .artist-canvas .verifiedTag {
+    margin-right: 10px;
+    width: 105px;
+    height: 40px;
+    padding-left: 15px;
+  }
+
+  .content .content-wrapper .artist-wall .artist-wrapper .artist-infocard {
+    height: 380px;
+  }
+
+  .content .content-wrapper .artist-wall .artist-wrapper .artist-infocard .desc {
+    font-size: 1em;
+  }
+
+  .content .content-wrapper .artist-wall .artist-wrapper .expBtn {
+    margin-bottom: 20px;
+    height: 150px;
+  }
+
+  .content .content-wrapper .artist-wall .artist-wrapper .expBtn .expInfo {
+    gap: 15px;
+    font-size: 1.3em;
+  }
+
+  .content .content-wrapper .artist-wall .artist-wrapper .expBtn .exp-feed .exp {
+    width: 40px;
+    height: 40px;
+  }
+
+  /* responsiveness for about panel */
+  .music-wrapper .about-panel .about-content {
+    padding: 25px;
+  }
+
+  .music-wrapper .about-panel .about-content .profile-bar .profile-infowall {
+    width: 210px;
+  }
+
+  .music-wrapper .about-panel .about-content .profile-bar .profile-infowall .areaBtn {
+    margin-top: 10px;
+  }
+
+  .music-wrapper .about-panel .about-content .profile-bar .profile-infowall .pro-title {
+    margin-bottom: 5px;
+  }
+
+  .music-wrapper .about-panel .about-navbar .nav-content .about-title {
+    font-size: 2em;
+  }
+
+  .music-wrapper .about-panel .about-navbar .nav-content .backBtn {
+    width: 45px;
+    height: 45px;
+  }
+
+  .music-wrapper .about-panel .about-content .pro-databar {
+    height: 300px;
+  }
+
+  .music-wrapper .about-panel .about-content .pro-databar .probar {
+    height: 75px;
+  }
+
+  .music-wrapper .about-panel .about-content .pro-databar .probar .proimg {
+    width: 45px;
+    height: 45px;
+  }
+
+  .music-wrapper .about-panel .about-content .pro-databar .probar .protag {
+    padding: 0;
+    height: 45px;
+    width: 120px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .music-wrapper .about-panel .about-content .pro-databar .pros {
+    gap: 15px;
+  }
+
+  .music-wrapper .about-panel .about-content .pro-databar .probar .protag p {
+    font-size: 1.2em;
+  }
+
+  .music-wrapper .about-panel .about-content .pro-databar .prodesc,
+  .basicdesc {
+    font-size: 1.1em;
+  }
+
+  .music-wrapper .about-panel .about-content .pro-databar .prohead,
+  .basichead p {
+    font-size: 1.2em;
+  }
+
+  .music-wrapper .about-panel .about-content .pro-databar .protail,
+  .basictail {
+    font-size: 1.2em;
+  }
+
+  .music-wrapper .about-panel .about-content .basic-bar .basics {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .music-wrapper .about-panel .about-content .basic-bar {
+    height: 150px;
+  }
+
+  /*responsiveness for cog's panel*/
+
+  .cog-panel .cog-content .items-wrapper .general-wrapper .gen-head,
+  .other-head {
+    margin-bottom: 20px;
+    font-size: 1.4em;
+  }
+
+  .cog-panel .nav-content .backBtn {
+    width: 45px;
+    height: 45px;
+  }
+
+  .cog-panel .nav-content .backBtn img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .cog-panel .cog-content .items-wrapper .general-wrapper .genitems-wrapper,
+  .otherItems-wrapper {
+    gap: 20px;
+  }
+
+  .cog-panel .cog-content .items-wrapper .general-wrapper .genitems-wrapper .glast {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+
+  .cog-panel .cog-content .items-wrapper .general-wrapper .gen-head,
+  .other-head {
+    font-size: 1.4em;
+  }
+
+  .cog-panel .cog-content .items-wrapper .general-wrapper .genitems-wrapper .item-tail .colorBtn:active {
+    width: 103px;
+  }
+
+  .cog-panel .cog-content .items-wrapper .item-head .headTitleResponse {
+    font-size: 1.5em;
+    padding-bottom: 5px;
+  }
+
+  .cog-panel .cog-content .items-wrapper .item-head .headTagResponse {
+    font-size: 1.1em;
+    font-weight: 400;
+  }
+
+  .cog-panel .cog-content .items-wrapper .item-head .BasicTitleResponse {
+    font-size: 1.2em;
+    padding-bottom: 5px;
+  }
+
+  .cog-panel .cog-content .items-wrapper .item-head .BasicTagResponse {
+    font-size: 0.8em;
+    font-weight: 400;
+  }
+  /* music list styles */
+  .music .music-wrapper .music-panel .queue-music{
+    max-height: 380px;
+  }
+  .music-panel .queue-music .queue-bar{
+    height: 80px;
+  }
+  .music-panel .queue-music .queue-bar .queue-items .que-logo{
+    width: 45px;
+    height: 45px;
+  }
+  .music-panel .queue-music .queue-bar .cancel{
+    width: 45px;
+    height: 45px;
+  }
+  .music-panel .queue-music .queue-bar .queue-items .queue-capsule{
+    padding: 0;
+    height: 45px;
+    width: 150px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .music-panel .queue-music .queue-bar .queue-items .queue-capsule .que-title{
+    font-size: 1.2em;
+  }
+  .music-wrapper .music-panel .queue-music .list-container .list-wrapper .music-list .music-info .music-headTag{
+    font-size: 1.4em;
+    padding-bottom: 5px;
+  }
+  .music-wrapper .music-panel .queue-music .list-container .list-wrapper .music-list .music-info .artist-tag{
+    font-size: 1.2em;
+    font-size: 400;
+  }
+}

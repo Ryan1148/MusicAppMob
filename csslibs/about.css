@@ -1,0 +1,223 @@
+.music-wrapper .about-panel {
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    left: -350px;
+    z-index: 30;
+}
+
+.music-wrapper .about-panel .about-navbar {
+    width: 100%;
+    height: 80px;
+}
+
+.music-wrapper .about-panel .about-navbar .nav-content {
+    height: 100%;
+    padding: 20px;
+}
+
+.music-wrapper .about-panel .about-navbar .nav-content .about-title {
+    font-size: 1.8em;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    user-select: none;
+}
+
+.music-wrapper .about-panel .about-navbar .nav-content .backBtn {
+    width: 35px;
+    height: 35px;
+    transition: 0.4s ease;
+}
+.music-wrapper .about-panel .about-navbar .nav-content .backBtn:active{
+    transform: scale(0.95);
+    filter: brightness(0.8);
+}
+.music-wrapper .about-panel .about-navbar .nav-content .backBtn img {
+    width: 17px;
+    height: 17px;
+    transform: rotate(90deg);
+    -webkit-user-drag: none;
+}
+
+.music-wrapper .about-panel .about-content {
+    width: 100%;
+    height: calc(100% - 80px);
+    padding: 20px;
+}
+
+.music-wrapper .about-panel .about-content .profile-bar {
+    width: 100%;
+    height: 120px;
+}
+
+.music-wrapper .about-panel .about-content .profile-bar .profile-wall {
+    width: 120px;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.music-wrapper .about-panel .about-content .profile-bar .profile-wall img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    -webkit-user-drag: none;
+}
+
+.music-wrapper .about-panel .about-content .profile-bar .profile-infowall {
+    width: 175px;
+    height: inherit;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.music-wrapper .about-panel .about-content .profile-bar .profile-infowall .pro-title {
+    font-size: 1.5em;
+    font-weight: 500;
+    user-select:none;
+}
+
+.music-wrapper .about-panel .about-content .profile-bar .profile-infowall .pro-prof {
+    font-size: 1em;
+    user-select:none;
+}
+
+.music-wrapper .about-panel .about-content .profile-bar .profile-infowall .areaBtn {
+    font-size: 1em;
+}
+
+.music-wrapper .about-panel .about-content .profile-bar .profile-infowall .areaBtn {
+    border-radius: 20px;
+    width: 130px;
+    height: 35px;
+    margin-top: 3px;
+}
+
+.music-wrapper .about-panel .about-content .profile-bar .profile-infowall .areaBtn .areaImg {
+    width: 30px;
+    height: 30px;
+}
+
+.music-wrapper .about-panel .about-content .profile-bar .profile-infowall .areaBtn .areaImg img {
+    width: 13px;
+    -webkit-user-drag: none;
+}
+
+.music-wrapper .about-panel .about-content .profile-bar .profile-infowall .areaBtn .area {
+    font-size: 0.7em;
+    user-select:none;
+}
+
+.music-wrapper .about-panel .about-content .pro-databar {
+    margin-top: 15px;
+    border-radius: 10px;
+    height: 220px;
+}
+
+.music-wrapper .about-panel .about-content .pro-databar .pros {
+    flex-direction: column;
+    gap: 5px;
+}
+
+.music-wrapper .about-panel .about-content .pro-databar .probar {
+    align-items: center;
+    width: 100%;
+    height: 55px;
+    padding: 0 15px;
+    gap: 15px;
+}
+
+.music-wrapper .about-panel .about-content .pro-databar .probar .proimg {
+    width: 35px;
+    height: 35px;
+}
+
+.music-wrapper .about-panel .about-content .pro-databar .probar .proimg img {
+    width: 17px;
+    height: 17px;
+    -webkit-user-drag: none;
+}
+
+.music-wrapper .about-panel .about-content .pro-databar .probar .protag {
+    padding: 5px 20px;
+    border-radius: 20px;
+}
+
+.music-wrapper .about-panel .about-content .pro-databar .probar .protag p {
+    font-size: 1em;
+    font-weight: 400;
+    user-select: none;
+}
+
+.music-wrapper .about-panel .about-content .pro-databar .prodesc,
+.basicdesc {
+    margin: 10px 0;
+    margin-left: 20px;
+    font-size: 0.9em;
+    user-select: none;
+}
+
+.music-wrapper .about-panel .about-content .pro-databar .proAlign {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 20px;
+}
+
+.music-wrapper .about-panel .about-content .pro-databar .pro1 {
+    gap: 30px;
+}
+
+.music-wrapper .about-panel .about-content .pro-databar .pro2 {
+    gap: 15px;
+}
+
+.music-wrapper .about-panel .about-content .pro-databar .pro3 {
+    gap: 30px;
+}
+
+.music-wrapper .about-panel .about-content .pro-databar .pro4 {
+    gap: 50px;
+}
+
+.music-wrapper .about-panel .about-content .pro-databar .prohead,
+.basichead {
+    font-size: 0.9em;
+}
+
+.music-wrapper .about-panel .about-content .pro-databar .protail,
+.basictail {
+    font-size: 0.9em;
+}
+
+.music-wrapper .about-panel .about-content .pro-databar .protail p {
+    font-size: 0.8em;
+}
+
+.music-wrapper .about-panel .about-content .basic-bar {
+    margin-top: 15px;
+    border-radius: 10px;
+    padding: 8px 0;
+    height: 130px;
+}
+
+.music-wrapper .about-panel .about-content .basic-bar .basics {
+    padding-left: 20px;
+}
+
+.music-wrapper .about-panel .about-content .basic-bar .basics .basic {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.music-wrapper .about-panel .about-content .basic-bar .basics .basic1 {
+    gap: 30px;
+}
+
+.music-wrapper .about-panel .about-content .basic-bar .basics .basic2 {
+    gap: 23px;
+}
+
+.music-wrapper .about-panel .about-content .basic-bar .basics .basic3 {
+    gap: 15px;
+}
